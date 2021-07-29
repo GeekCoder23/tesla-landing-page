@@ -1,0 +1,151 @@
+@import url(//db.onlinewebfonts.com/c/3a47f5f06b5484abfeee9eac90348a9c?family=Gotham);
+
+* {
+    text-decoration: none;
+    font-family: "Gotham";
+    src: url("//db.onlinewebfonts.com/t/3a47f5f06b5484abfeee9eac90348a9c.eot");
+    src: url("//db.onlinewebfonts.com/t/3a47f5f06b5484abfeee9eac90348a9c.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/3a47f5f06b5484abfeee9eac90348a9c.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/3a47f5f06b5484abfeee9eac90348a9c.woff") format("woff"), url("//db.onlinewebfonts.com/t/3a47f5f06b5484abfeee9eac90348a9c.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/3a47f5f06b5484abfeee9eac90348a9c.svg#Gotham") format("svg");
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.main-car {
+    position: absolute;
+    z-index: -1;
+
+}
+
+.main-car img {
+    width: 171.1%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.img {
+    display: block;
+    margin-top: 0px;
+    margin-left: 30px;
+    padding: 0px;
+
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    position: relative;
+
+
+}
+
+.navbar {
+    display: flex;
+
+}
+
+.model {
+    display: flex;
+    width: 110vh;
+    margin-left: 30vh;
+}
+
+.model a {
+    padding: 10px;
+    margin-left: 30px;
+    font-size: 1.2rem;
+    color: black;
+    text-decoration: none;
+}
+
+.model a:hover {
+    background: rgba(105, 105, 105, 0.2);
+    border: none;
+    border-radius: 14px;
+    transition: .4s all;
+}
+
+
+.shop {
+    padding: 15px;
+    display: flex;
+    margin-left: 0px;
+    right: 0px;
+
+}
+
+.shop a {
+    padding: 10px;
+    margin-left: 20px;
+    font-size: 1.2rem;
+    color: black;
+}
+
+.shop a:hover {
+    background: rgba(105, 105, 105, 0.2);
+    border: none;
+    border-radius: 14px;
+    transition: .4s all;
+}
+
+
+.cont {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.modelS-name {
+    font-size: 3.5rem;
+    color: rgb(75, 75, 75);
+    margin-top: 60px;
+}
+
+.order-online {
+    font-size: 20px;
+    margin-top: 8px;
+    font-weight: lighter;
+    color: rgb(104, 104, 104);
+}
+
+.order-online a {
+    text-decoration: underline;
+    color: rgb(88, 88, 88);
+    font-weight: lighter;
+}
+
+.order-online a:hover {
+    color: black;
+    transition: 0.4s all;
+    font-weight: 500;
+}
+
+.modelS-btn {
+    margin-top: 55vh;
+}
+
+.modelS-btn button {
+    width: 38vh;
+    height: 6vh;
+    border: none;
+    border-radius: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.co-btn {
+    font-size: 18px;
+    font-weight: 400;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+
+}
+
+.ei-btn {
+    font-size: 18px;
+    font-weight: 400;
+    background: rgba(255, 255, 255, 0.7);
+}
